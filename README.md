@@ -141,5 +141,5 @@ const tonweb = new TonWeb();
 run script
 
 ```bash
-node your_script.js
+node your_script.js 
 ```
