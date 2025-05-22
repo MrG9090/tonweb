@@ -41,7 +41,7 @@ const address = await wallet.getAddress();
 
 const nonBounceableAddress = address.toString(true, true, false);
 
-const seqno = await wallet.methods.seqno().call();
+const seqno = await wallet.methods.seqno().call(); 
 
 await wallet.deploy(secretKey).send(); // deploy wallet to blockchain
 
